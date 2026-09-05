@@ -1,0 +1,25 @@
+# Excluded project (not part of this repo)
+/open-slides/
+
+# Environment files
+.env
+*.env
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node cache
+node_modules/
+.npm/
+.cache/
+
+# General cache/temp
+*.log
+.DS_Store
+Thumbs.db

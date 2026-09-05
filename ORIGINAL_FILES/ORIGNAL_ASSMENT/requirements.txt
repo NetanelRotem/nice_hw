@@ -1,0 +1,18 @@
+# Triage & Resolve — dependencies
+#
+# The provided starter (tools/, starter/) runs on the Python 3.10+ STANDARD
+# LIBRARY ALONE. Nothing below is hard-required to run the scaffold.
+#
+# Add what YOUR design needs. These are common, vendor-neutral options — pick
+# one LLM client (or none, if you run in a documented mock mode) and pin
+# versions in your own submission.
+#
+# --- Pick at most one LLM client (optional) ---
+# openai>=1.0
+# anthropic>=0.39
+#
+# --- Optional, commonly useful ---
+# pydantic>=2          # typed state / structured-output validation
+# python-dotenv>=1.0   # load an API key from a local .env (keep it out of git!)
+#
+# Keep it light. Every dependency should earn its place — we grade that.

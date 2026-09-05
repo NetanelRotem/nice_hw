@@ -1,0 +1,22 @@
+# Triage & Resolve — dependencies
+#
+# The provided starter (tools/, starter/) runs on the Python 3.10+ STANDARD
+# LIBRARY ALONE. Nothing below is hard-required to run the scaffold.
+#
+# Add what YOUR design needs. These are common, vendor-neutral options — pick
+# one LLM client (or none, if you run in a documented mock mode) and pin
+# versions in your own submission.
+#
+# --- LLM client ---
+# Using OpenAI's client pointed at OpenRouter (OpenAI-compatible API) so we can
+# pick any two models by slug (one for intent/extraction, one as judge) without
+# a second SDK.
+openai>=1.0
+
+# --- Structured state / LLM output validation ---
+pydantic>=2
+
+# --- Load OPENROUTER_API_KEY from a local .env (kept out of git) ---
+python-dotenv>=1.0
+#
+# Keep it light. Every dependency should earn its place — we grade that.
