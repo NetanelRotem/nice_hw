@@ -7,7 +7,7 @@
 
 ## ADR and slides
 
-[slide+adr](https://netanelrotem.github.io/nice-hw-slides/s/triage-resolve)
+[slide+adr](https://netanelrotem.github.io/nice-hw-slides/)
 
 ## Demo
 
